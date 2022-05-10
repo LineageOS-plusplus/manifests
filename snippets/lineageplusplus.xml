@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="manifests" name="LineageOS-PlusPlus/manifests" remote="plusplus" />
+   
   <project path="device/xiaomi/beryllium" name="LineageOS-PlusPlus/android_device_xiaomi_beryllium" remote="plusplus" />
   <project path="device/xiaomi/sdm845-common" name="LineageOS-PlusPlus/android_device_xiaomi_sdm845" remote="plusplus" />
-   
+  
 </manifest>

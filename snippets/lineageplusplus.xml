@@ -5,11 +5,11 @@
    
   <!-- device tree --> 
   <project path="device/xiaomi/beryllium" name="LineageOS-PlusPlus/android_device_xiaomi_beryllium" remote="plusplus" />
-  <project path="device/xiaomi/sdm845-common" name="LineageOS-PlusPlus/android_device_xiaomi_sdm845" remote="plusplus" />
+  <project path="device/xiaomi/sdm845-common" name="LineageOS-PlusPlus/android_device_xiaomi_sdm845-common" remote="plusplus" />
   
   <!-- hardware, kernel and blobs -->
   <project path="hardware/xiaomi" name="LineageOS-PlusPlus/android_hardware_xiaomi" remote="plusplus" />
   <project path="kernel/xiaomi/sdm845" name="LineageOS-PlusPlus/android_kernel_xiaomi_sdm845" remote="plusplus" />
-  <!--<project path="vendor/xiaomi" name="LineageOS-PlusPlus/proprietary_vendor_xiaomi" remote="plusplus" /> -->
+  <project path="vendor/xiaomi" name="LineageOS-PlusPlus/proprietary_vendor_xiaomi" remote="plusplus" />
   
 </manifest>

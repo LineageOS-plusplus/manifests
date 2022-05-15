@@ -15,9 +15,9 @@
   <project path="vendor/lospp" name="LineageOS-PlusPlus/android_vendor_lospp" remote="plusplus" />
   
   <!-- forks -->
-  <remove-project name="ForkLineageOS/android_frameworks_base" path="frameworks/base" />
-  <remove-project name="ForkLineageOS/android_system_core" path="system/core" />
-  <remove-project name="ForkLineageOS/android_build" path="build/make" />
+  <remove-project name="android_frameworks_base" path="frameworks/base" />
+  <remove-project name="android_system_core" path="system/core" />
+  <remove-project name="android_build" path="build/make" />
   
   <project path="frameworks/base" name="LineageOS-PlusPlus/android_frameworks_base" remote="plusplus" />
   <project path="system/core" name="LineageOS-PlusPlus/android_system_core" remote="plusplus" />

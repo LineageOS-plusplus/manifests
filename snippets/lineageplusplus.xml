@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="manifests" name="LineageOS-PlusPlus/manifests" remote="plusplus" />
+  <project path="manifests" name="LineageOSPlusPlus/manifests" remote="plusplus" />
    
   <!-- device tree --> 
-  <project path="device/xiaomi/beryllium" name="LineageOS-PlusPlus/android_device_xiaomi_beryllium" remote="plusplus" />
-  <project path="device/xiaomi/sdm845-common" name="LineageOS-PlusPlus/android_device_xiaomi_sdm845-common" remote="plusplus" />
+  <project path="device/xiaomi/beryllium" name="LineageOSPlusPlus/android_device_xiaomi_beryllium" remote="plusplus" />
+  <project path="device/xiaomi/sdm845-common" name="LineageOSPlusPlus/android_device_xiaomi_sdm845-common" remote="plusplus" />
   
   <!-- hardware, kernel and blobs -->
-  <project path="hardware/xiaomi" name="LineageOS-PlusPlus/android_hardware_xiaomi" remote="plusplus" />
-  <project path="kernel/xiaomi/sdm845" name="LineageOS-PlusPlus/android_kernel_xiaomi_sdm845" remote="plusplus" />
-  <project path="vendor/xiaomi" name="LineageOS-PlusPlus/proprietary_vendor_xiaomi" remote="plusplus" />
+  <project path="hardware/xiaomi" name="LineageOSPlusPlus/android_hardware_xiaomi" remote="plusplus" />
+  <project path="kernel/xiaomi/sdm845" name="LineageOSPlusPlus/android_kernel_xiaomi_sdm845" remote="plusplus" />
+  <project path="vendor/xiaomi" name="LineageOSPlusPlus/proprietary_vendor_xiaomi" remote="plusplus" />
   
-  <project path="vendor/lospp" name="LineageOS-PlusPlus/android_vendor_lospp" remote="plusplus" />
+  <project path="vendor/lospp" name="LineageOSPlusPlus/android_vendor_lospp" remote="plusplus" />
   
   <!-- forks -->
   <remove-project name="android_frameworks_base" path="frameworks/base" />
   <remove-project name="android_system_core" path="system/core" />
   <remove-project name="ForkLineageOS/android_build" path="build/make" />
   
-  <project path="frameworks/base" name="LineageOS-PlusPlus/android_frameworks_base" remote="plusplus" />
-  <project path="system/core" name="LineageOS-PlusPlus/android_system_core" remote="plusplus" />
-  <project path="build/make" name="LineageOS-PlusPlus/android_build" remote="plusplus" >
+  <project path="frameworks/base" name="LineageOSPlusPlus/android_frameworks_base" remote="plusplus" />
+  <project path="system/core" name="LineageOSPlusPlus/android_system_core" remote="plusplus" />
+  <project path="build/make" name="LineageOSPlusPlus/android_build" remote="plusplus" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />

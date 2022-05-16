@@ -17,6 +17,7 @@
   </project>
   
   <!-- forks -->
+  <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
   <remove-project name="android_vendor_lineage" path="vendor/lineage" />
   <remove-project name="android_lineage-sdk" path="lineage-sdk" />
   <remove-project name="android_frameworks_base" path="frameworks/base" />
@@ -24,6 +25,7 @@
   <remove-project name="android_system_core" path="system/core" />
   <remove-project name="ForkLineageOS/android_build" path="build/make" />
 	
+  <project path="packages/inputmethods/LatinIME" name="LineageOSPlusPlus/android_packages_inputmethods_LatinIME" remote="plusplus" />
   <project path="vendor/lineage" name="LineageOSPlusPlus/android_vendor_lineage" remote="plusplus" />
   <project path="lineage-sdk" name="LineageOSPlusPlus/android_lineage-sdk" remote="plusplus" />
   <project path="packages/apps/Settings" name="LineageOSPlusPlus/android_packages_apps_Settings" remote="plusplus" />

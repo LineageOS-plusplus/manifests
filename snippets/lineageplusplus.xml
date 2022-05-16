@@ -17,11 +17,13 @@
   </project>
   
   <!-- forks -->
+  <remove-project name="android_lineage-sdk" path="lineage-sdk" />
   <remove-project name="android_frameworks_base" path="frameworks/base" />
   <remove-project name="android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="android_system_core" path="system/core" />
   <remove-project name="ForkLineageOS/android_build" path="build/make" />
 	
+  <project path="lineage-sdk" name="LineageOSPlusPlus/android_lineage-sdk" remote="plusplus" />
   <project path="packages/apps/Settings" name="LineageOSPlusPlus/android_packages_apps_Settings" remote="plusplus" />
   <project path="frameworks/base" name="LineageOSPlusPlus/android_frameworks_base" remote="plusplus" />
   <project path="system/core" name="LineageOSPlusPlus/android_system_core" remote="plusplus" />

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="vendor/beryllium-firmware" name="dkati/beryllium-firmware" remote="gitlab" />
+  
   <project path="manifests" name="LineageOSPlusPlus/manifests" remote="plusplus" />
    
   <!-- device tree --> 

@@ -15,6 +15,10 @@
            fetch=".."
            revision="lospp-19.1" />
            
+  <remote name="gitlab"
+          fetch="https://gitlab.com"
+          revision="main" />
+           
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"

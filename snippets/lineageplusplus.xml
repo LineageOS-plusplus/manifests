@@ -11,8 +11,8 @@
   
   <!-- hardware, kernel and blobs -->
   <project path="hardware/xiaomi" name="LineageOSPlusPlus/android_hardware_xiaomi" remote="plusplus" />
-  <project path="kernel/xiaomi/sdm845" name="LineageOSPlusPlus/NGK_android_kernel_xiaomi_sdm845" remote="plusplus" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/proton-clang" name="LineageOSPlusPlus/proton-clang" remote="plusplus" clone-depth="1" />	
+  <project path="kernel/xiaomi/sdm845" name="LineageOSPlusPlus/android_kernel_xiaomi_sdm845" remote="plusplus" />
+  <!--<project path="prebuilts/gcc/linux-x86/aarch64/proton-clang" name="LineageOSPlusPlus/proton-clang" remote="plusplus" clone-depth="1" />-->	
   <project path="vendor/xiaomi" name="LineageOSPlusPlus/proprietary_vendor_xiaomi" remote="plusplus" />
   
   <project path="vendor/lospp" name="LineageOSPlusPlus/android_vendor_lospp" remote="plusplus" >

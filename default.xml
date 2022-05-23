@@ -33,7 +33,6 @@
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
-
   <project path="build/make" name="ForkLineageOS/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

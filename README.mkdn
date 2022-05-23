@@ -14,4 +14,7 @@ Then to sync up:
 ```
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+and use our script
+```
+./build.sh
+```
